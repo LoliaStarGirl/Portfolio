@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+}
+.column{
+    float:left;
+    width:50%;
+    padding:10px;
+    height:300px;
+}
+.column1{
+    float:left;
+    width:50%;
+    padding-left: 280px;
+    height:300px;
+}
+.row:after {
+    content: "";
+    display:table;
+    clear:both;
+}
+
+.form-container {
+  width: 500px;
+  padding: 10px;
+  background-color: white;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: ridge;
+}
+
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #F1F1F1;
+}
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+.head{
+  background-color: orange;
+  width: 100%
+}
+
+.button{
+  color: white;
+  background-color: #ff9900;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+
+}
+
+.img{
+  text-align: center;
+  font-size: 17px;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.ed{
+  float: right;
+  margin-top: 15px;
+}
+
+.header{
+   text-align: center;
+   background-color: white;
+   background-color: #ff9900;
+	color: white;
+	text-align: center;
+	font-size: 17px;
+}
+
+.party{
+	text-align: ;
+	background-color:#ffffff;
+	color: black;
+}
+
+body{
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
